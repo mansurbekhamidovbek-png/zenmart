@@ -1,324 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> NEW FAYL </title>
-        <link rel="icon" type="image/x-icon" href="IMAGE 2025-11-18 20:49:09.jpg">
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" />
-    </head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title> ZENMART </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+	<link rel="stylesheet" href="public/css/command.css">
+  <link rel="stylesheet" href="public/css/home.css">     
+</head>
 <body style="background: #35f51b;">
-            <h1> <ins><senter> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat.</senter></ins></h1> 
-            <h4> <del> <senter> <i class="fa-solid fa-right-to-bracket"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat.</senter></del> 
-             <!-- INS TEXT BU MUHIM TEKSTLARIMIZNI TAGINI CHIZIQ CHIZIB BERADI  --></h4>
-            <senter><h3><hr>
-<mark> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-    Amet eius similique saepe esse blanditiis at?</mark></senter>
-    <!-- MARK TEXT muhim tekst qilib rangli yozuvda chiqarib beradi-->
-            </h3><hr>
-            <a href="https://www.devex.uz/"> <i class="fa-solid fa-right-to-bracket"></i> BU YERDA BOSHQA SAYTNING BOSHLANISHI </a>
-            <!-- ay href tegi boshqa saytlarni ulashda yordam beradi -->
-            <hr>
-  <img src="IMAGE 2025-11-18 20:49:09.jpg" 
-  style="width: 600px;" height="400px;" 
-  alt="TARMOQ BARQAROR EMAS!"> 
-  <!-- img kodiga rasm yuklandi 
-          style kodi rasmning razmeriga javob beradi
-              alt kodi web brawzer ishlamay qolsa bu yozuv kõrinadi -->
-  <hr>
-  <!-- IFRAME-->
-   <p> BU ASOSIY SAHIFANI BOSHLANISHI </p>
-    <iframe
-   src="http://www.devex.uz/"
-   frameborder="1"
-   width="100%"
-   height="600px"
-   name="target_site"
-   >
-   <p> BU ASOSIY SAHIFANI BOSHLANISHI </p>  
-   </iframe>
-   <a href="http://devex.uz/" target="target_site"
-   > <i class="fa-solid fa-right-to-bracket"></i>
-   BU YERNI BOS VA HAYRATLANISHDA DAVOM ET !!!
-   </a><hr>
-   <senter><h1> Lorem ipsum dolor sit amet.</h1></senter>
-     <hr>
-   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-     Earum, officia obcaecati cumque necessitatibus ab dolore, <br>
-     Fuga tempore explicabo ut iure numquam non fugiat, <br>
-     Ex temporibus repellendus, ipsum accusantium eveniet sint.</p>
-     
-  <label for="gender">gender</label>
-      <input type="radio" id="male" name="gender" value="male" /><label
-        for="male"
-        >erkak</label
-      >
-      <input type="radio" id="female" name="gender" value="female" /><label
-        for="female"
-        >ayol</label>
-        <form action="/users" method="POST">
-  <!-- metidlar 2xil ishlatiladi POST va GET 
-       FARQI
-   POST serverga reqvest junatyotganda  bodyga joylashib oladi
-   hech qayerga ko'rinmasdan xavfsiz junatiladi 
-     GET usuli Quverel ko'rinishida junatiladi 
-     wepsite.com/index.php?username=John&password=sdjhf junatish usuli
-     GETDA 1.cheklov mavjud { 2048 CHARACTERS }
-     2.xavfsiz emas
-POST 1.xavfsiz va 2.cheklov yo'q -->
-<hr>
-  ==================================
-  <br>
-  <!-- TEXT,PASSWORD,SUBMIT,RADIO,CHECKBOX,DATE/DATETIME_LOCAL,EMAIL,FILE,HIDDEN
-   ENG KO'P ISHLATILADIGAN TAYPLAR -->
-  <label for="username_id"> USERNAME </label>
-<input 
-id="username_id"
-type="text" 
-name="Username"
-placeholder="Username kiriting"
- />
- <!-- DISABLED ni imputga kiritsak malumot kiritishni cheklaydi-->
-  <br>
-  ==================================
-  <br>
-<label for="name_id"> NAME </label>
-    <input 
-    type="text"
-     name="NAME"
-     placeholder="NAME kiriting"
-      />
-     <br>
-  ==================================
-  <br>
-  <label for="PASSWORD_ID"> PASSWORD </label>
-  <input
-  type="password"
-  name="password"
-  id="PASSWORD_ID"
-  placeholder="Password" 
-  /></form>
-  ==================================
-  <br>
-  <form action="/users" method="POST">
-  <label for="username_id"> OCHISTVA </label>
-  <input 
-      id="username_id"
-      type="text"
-      name="username"
-      value=""
-      placeholder="Otasining ismi"
-      />
-  <br>
-  ==================================
-  <br>
-  <label for="PASSWORD_ID"> </label>
-  <label for="submit"> SUBMIT </label>
-  <input type="submit" id="submit" />
-  <br>
-  ===================================
-  <br>
-  <label for="reset"> RESET</label>
-  <input type="reset" id="reset" /> 
-  <br>
-  ===================================
-  <br>
-   <label for="email"> EMAIL </label>
-  <input type="email" id="email" name="email"
-  placeholder="Emaillingizni kiriting"/>
-  <br>
-  ===================================
-  <br>
-  <label for="file"> FILE </label>
-  <input type="file" id="file" name="file"
-  /><!-- Fayl kiritish uchun ishlatiladi -->
-  <br>
-  ===================================
-  <br>
-  <label for="hidden"> HIDDEN </label>
-  <input type="hidden" name="hidden" id="hidden" value="salom matni"
-  />
-  <br>
-  ===================================
-  <br>
-  <label for="search"> SEARCH </label><br>
-  <input type="search" name="search" id="search" value="So'zni kiriting"
-  />
-  <br>
-  ===================================
-  <br>
-  <!-- RADIO BATTINLAR 
-   1.checked tugmasini yoqib quyadi -->
-  <input type="radio" name="language" id="html" />
-  <label for="html"> HTML </label> <br />
-  <input type="radio" name="language" id="css" />
-  <label for="css"> CSS </label> <br />
-  <input type="radio" name="language" id="js" />
-  <label for="js"> JAVA SCRIPT </label> <br />
-  <input type="radio" name="language" id="html" />
-  <label for="html"> APPLE </label> <br />
-  <input type="radio" name="language" id="css" />
-  <label for="css"> MacBook </label> <br />
-  <input type="radio" name="language" id="js" />
-  <label for="js"> SMART WACH </label> <br />
-  <br>
-  ===================================
-  <br>
-  <label for="Time"> TIME </label><br>
-  <input type="time" id="time" name="time"/>
-  <br>
-  ===================================
-  <br>
-  <label for="color"> COLOR{RANGLAR} </label><br>
-  <input type="color" id="color" name="COLOR"/>
-  <br>
-  ===================================
-  <br>
-   <label for="date"> DATE {KALENDAR} </label><br>
-  <input type="date" id="date" name="date"/>
-  <br>
-  <!-- 2 LASINI FARQI 1 TASIGA FAQAT SANA QUYSA BULADI
-   2 CHISIGA SANA VA VAQTNI HAM BELGILASA BULADI -->
-  ===================================
-  <br>
-   <label for="date"> DATETIME { VAQTLI.KALENDAR } </label><br>
-  <input type="datetime-local" id="date" name="date"/>
-  <br>
-  ===================================
-  <br>
-  
-  <!-- CHECKBOKS BATTINI-->
-  <input type="checkbox" name="language" id="html" />
-  <label for="html"> HTML </label> <br />
-  <input type="checkbox" name="language" id="css" />
-  <label for="css"> CSS </label> <br />
-  <input type="checkbox" name="language" id="js" />
-  <label for="js"> JAVA SCRIPT </label> <br />
-  <input type="checkbox" name="language" id="html" />
-  <label for="html"> APPLE </label> <br />
-  <input type="checkbox" name="language" id="css" />
-  <label for="css"> MacBook </label> <br />
-  <input type="checkbox" name="language" id="js" />
-  <label for="js"> SMART WACH </label> <br />
-</form>
-<br>
-<form action="/users" method="post">
-  <hr>
-  <!-- FORM TEGINING DAVOMI. 
-  SELECT /|\ OPTION / OPTGROUP
-  TEXTAREA, BUTTON, FIELDSET, LEGEND, DATALIST, OPTION.-->
-  <form action="/Users" method="POST">
-    <label for="language"> CHOOSE LANGUAGE: </label>
-  <select id="language" name="lang">
-    <!-- <option selected disabled > Select </option> -->
-      <option value="eng"> ENGLISH </option>
-      <option class="uz"> UZBEK </option>
-      <option class="kr"> KOREA </option>
-    </select> 
-   <br>
-  ===================================
-  <br>
-  <br> 
-  <label for="language"> <senter> Messege: </senter></label><br>
-  <textarea 
-  style="width: 300px; height: 100px; color: rgb(7, 15, 238);"
-  name="senter messege" > Messege
-  </textarea><br>
-<button onclick="alert('Clicked!!')">  SUBMIT </button>
-<br>
-  ===================================
-  <br>
-<fieldset>
-  <legend>PLEASE LOGIN </legend>
-  <label for="name"> Username </label>
-  <input type="text" name="name" id="name" placeholder="user"/>
-  <br /><br />
-  <label for="name"> Name </label>
-  <input type="text" name="name" id="name" placeholder="name"/>
-  <br /><br />
-  <button type="submit"> SUBMIT </button>
-</fieldset>
-<br>
-  ===================================
-  <br>
-<input list="lan" name="language" />
-<!-- data list -->
- <br>
-  ===================================
-  <br>
-  <datalist id="lan">
-    <option value="ENGLISH"></option>
-    <option value="UZBEK"></option>
-    <option value="KOREA"></option>
-  </datalist><hr>
-  </form>
-  <br>
-  ===================================
-  <br>
-  <audio src="music.mp3" controls> <!-- avtoplay ham quysa buladi-->
-  </audio>
-  <br>
-  ===================================
-  <br>
-  <video src="video1466551837.mp4"controls
-  style="width: 450px; height: 300px;"
-  >
- Aloqa barqaror emas 
- </video><!--1.autoplay-uzi uqib turadi 
-  2.autoplay muted - uzi uqib ovozi chiqmaydi -->
-  <div class="" id=" o'rab turuvchi"></div>
-  <div class="frame"> 
-  <div class="container">
-  </div class="main_container">
-  </div>
-  </div>
-  <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/LS8133KOa54?si=HZe_b6raxCS5fafo"
-   title="YouTube video player" 
-   frameborder="0" 
-   allow="accelerometer; autoplay; clipboard-write; 
-   encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-</iframe>
-  
-  <iframe
-   src="https://youtube.com/shorts/DWeyz5P_Zhg?si=RV2cFdpKqITRo0c_"
-   frameborder="0"
-   width="100%"
-   height="600px"
-   name="target_site"
-   >
-   <p> BU ASOSIY REKLAMANI BOSHLANISHI </p>  
-   </iframe>
-   <a href="https://youtube.com/shorts/DWeyz5P_Zhg?si=RV2cFdpKqITRo0c_" target="target_site"
-   > <i class="fa-solid fa-right-to-bracket"></i>
-   BU YERNI BOSING VA HAYRATLANISHDA DAVOM ET !!!
-   </a><hr>
-
-   
-<iframe
-  src="https://www.youtube.com/embed/DWeyz5P_Zhg?si=RV2cFdpKqITRo0c_"
-  frameborder="1"
-  width="90%%"
-  height="600"
-  controls
-  title="YouTube Shorts - DWeyz5P_Zhg"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
-<!-- ...existing code... -->
-<br>
-<a href="https://youtube.com/shorts/DWeyz5P_Zhg" target="_blank" rel="noopener">Open YouTube Shorts</a>
-
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/0lbzmZeS-BY?si=-8ACRODEgjm40S0n" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
- referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <!-- 1-qator -->
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+            <a href="">
+              <img src="public/images/logo (1).png" alt="Aygu rasm yo'q" class="logo">
+            </a>
+            <div class="nav_search_frame">
+              <div class="search_box">
+                   <div class="category_list">
+                    <select >
+                      <option value="" selected>All Categories</option>
+                      <option value="">Computer</option>
+                    </select>
+                   </div>
+                   <input type="search" placeholder="Serach Products...">
+                </div>
+              <div class="search_icon_box">
+                <img src="public/images/search 1.svg" alt="Aygu rasm yo'q">
+              </div>
+            </div>
+            <div class="nav_top_menu">
+              <!-- 1-card -->
+              <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                  <img src="public/images/heart 1.svg" alt="Aygu rasm yo'q">
+                    </div>
+                    <div class="box_info_box">
+                      <span>Wishlist</span>
+                      <strong>My Items</strong>
+                    </div>
+                  </div>
+                 </a>
+                 <!-- 2-card -->
+                 <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                  <img src="public/images/profile 1.svg" alt="Aygu rasm yo'q">
+                    </div>
+                    <div class="box_info_box">
+                      <span>Sign In</span>
+                      <strong>Account</strong>
+                    </div>
+                  </div>
+                 </a>
+                 <!-- 3-card -->
+                 <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                    <div class="basket_count">2</div>
+                  <img src="public/images//shopping-cart 1.svg" alt="Aygu rasm yo'q">
+                    </div>
+                    <div class="box_info_box">
+                      <span>$700.99</span>
+                      <strong>Total</strong>
+                    </div>
+                  </div>
+                 </a>
+               </div>
+             </div>
+             <!-- 2-qator -->
+             <div class="navbar_bott">
+              <div class="navbar_bott_menu_box">
+                <div class="browse_box">
+                  <img src="public/images/browse1.svg" alt=" Aygu rasm yo'q">
+                  <span>Browse Categories</span>
+                </div>
+                <div class="navbar_route_menu">
+                  <div class="router_menu">
+                    <a href="" >Home</a>
+                  </div>
+                   <div class="router_menu">
+                    <a href="" class="active" >Shop</a>
+                  </div>
+                  <div class="router_menu">
+                    <a href="" >Orders</a>
+                  </div>
+                   <div class="router_menu">
+                    <a href="" >About</a>
+                  </div>
+                  <div class="router_menu">
+                    <a href="" >Contact</a>
+                  </div>
+                </div>
+                 <!-- 3-qator -->
+                <div class="sorting_menu">
+                  <span>Deal of the day </span>
+                  <span>Hot Deals </span>
+                  <span>Best Sellers </span>
+                  <span>New Arrivals </span>
+                </div>
+              </div>
+             </div>
+      </div>
+    </div>
 
 
         </body>
