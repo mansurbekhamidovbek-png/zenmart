@@ -13,6 +13,11 @@ rel="stylesheet">
 <link rel="stylesheet"
  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- swiper tugashi-->
+ <link rel="stylesheet" 
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+ integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- css fayllar -->
 	<link rel="stylesheet" href="public/css/command.css">
   <link rel="stylesheet" href="public/css/home.css">     
 </head>
@@ -872,97 +877,130 @@ rel="stylesheet">
           </div>
         </div>
        </div>
+       <!-- Footer frame qismi -->
+        <div class="footer_frame">
+          <div class="container">
+            <!-- Servis qismi -->
+            <div class="footer_top">
+              <!-- Contact qismi -->
+              <div class="footer_contact_box">
+                <span class="footer_spec_title">Contact US</span>
+                  <div class="footer_contact_main">
+                    <img src="public/images/icons/phone-call.svg" alt="no net">
+                    <div>
+                      <strong> Monday-Friday: 88am-9pm</strong>
+                      <span> +(1) 123 456 7890  </span>
+                    </div>
+                  </div>
+                  <div class="footer_contact_main">
+                    <img src="public/images/icons/email.svg" alt="no net">
+                    <div>
+                      <strong> Need help with your order? </strong>
+                      <span> support@zenmart.com  </span>
+                    </div>
+                  </div>
+              </div>
+              <!-- Support qismi -->
+              <div class="footer_support_box">
+                <span class="footer_spec_title" style="margin-bottom: 10px;">Customer Support</span>
+                <a href="">Contact US</a>
+                <a href="">Help Center</a>
+                <a href="">Returns & Exchanges</a>
+                <a href="">Best Buy Financing </a>
+                <a href="">Best Buy Gift Card</a>
+              </div>
+              <!-- Services qismi -->
+               <div class="footer_support_box">
+                <span class="footer_spec_title" style="margin-bottom: 10px;">Cervices</span>
+                <a href="">Geek Squad</a>
+                <a href="">In-Home Advisor</a>
+                <a href="">Trade-In Program</a>
+                <a href="">Electronics Recycling </a>
+                <a href="">Best Buy Health</a>
+              </div>
+              <!-- Media qismi -->
+              <div class="footer_media_box">
+                <div class="footer_media_main">
+                <span class="footer_spec_title" style="margin-bottom: 20px;">Follow us</span>
+                <div class="media_box">
+                  <i class="fa-brands fa-facebook-f fa-fade"></i>
+                  <i class="fa-brands fa-twitter fa-fade"></i>
+                  <i class="fa-brands fa-instagram fa-fade"></i>
+                  <i class="fa-brands fa-linkedin-in fa-fade"></i>
+                </div>
+               </div>
+                 <div class="footer_media_main" style="margin-top: 30px;">
+                <span class="footer_spec_title" style="margin-bottom: 20px;">Mobile</span>
+                <div class="mobile_app_box">
+                  <img src="public/images/icons/apple_icon.png" alt="no net">
+                  <span>IOS App</span>
+                </div>
+                 <div class="mobile_app_box">
+                  <img src="public/images/icons/android_icon.png" alt="no net">
+                  <span>Android App</span>
+                </div>
+               </div>
+              </div>
+              <!-- Card qismi -->
+              <div class="footer_media_box">
+                <div class="footer_media_main" style="margin-top: 130px;">
+                <span class="footer_spec_title" style="margin-bottom: 20px;">We accept</span>
+                <div class="card_box">
+                  <img src="public/images/icons/visa.png" alt="no net">
+                  <img src="public/images/icons/master_card.png" alt="no net">
+                  <img src="public/images/icons/apple_pay.png" alt="no net">
+                  <img src="public/images/icons/dicvover.png" alt="no net">
+                  <img src="public/images/icons/paypal.png" alt="no net">
+                </div>
+               </div>
+              </div>
+            </div>
+             <!-- Data-Servis qismi -->
+            <div class="footere_bottom">
+              <div class="footere_main">
+                <!-- Data-Servis  -->
+                <div class="footer_bottom_left">
+                  <span> © 2025.12.30    Zenmart. All Rights Reserved </span>
+                  <span> Privacy  ·  Terms  ·  Sitemap </span>
+                </div>
+                <!-- Language-Servis -->
+                <div class="footere_bottom_right">
+                  <!-- Money -->
+                  <div class="footere_select_box">
+                    <span>Currency</span>
+                    <select name="" id="">
+                    <option value="" selected>HKD</option>
+                    <option value="" selected>UZS</option>
+                    <option value="" selected>KRW</option>
+                    <option value="" selected>JPY</option>
+                    <option value="" selected>EUR</option>
+                    <option value="" selected>GBP</option>
+                    <option value="" selected>CNY</option>
+                    <option value="" selected>USD</option>
+                    </select>
+                  </div>
+                  <!-- Language -->
+                  <div class="footere_select_box">
+                    <span>Language</span>
+                    <select name="" id="">
+                    <option value="" selected>Ks</option>
+                    <option value="" selected>UZ</option>
+                    <option value="" selected>Ru</option>
+                    <option value="" selected>Zh</option>
+                    <option value="" selected>Es</option>
+                    <option value="" selected>Fr</option>
+                    <option value="" selected>AR</option>
+                    <option value="" selected>EN</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </div>
-<!-- swiper boshi-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  function setupSwiper(wrapperClass, boxesClass, itemClass, paginationClass) {
-    const wrapper = document.querySelector(wrapperClass);
-    const boxes = document.querySelector(boxesClass);
-    const items = document.querySelectorAll(itemClass);
-    
-    // Tugmalarni topamiz
-    const prevBtn = wrapper.querySelector('.next_prew_box:first-of-type');
-    const nextBtn = wrapper.querySelector('.next_prew_box:last-of-type');
 
-    if (wrapper && boxes) {
-      // 1. Tugmalarni Swiper-wrapperdan (boxes ichidan) tashqariga chiqaramiz
-      // Bu tugmalarni rasm bilan birga aylanib ketishini to'xtatadi
-      wrapper.style.display = 'flex';
-      wrapper.style.alignItems = 'center';
-      wrapper.style.position = 'relative';
-
-      // 2. Swiper uchun asosiy konteynerni sozlaymiz
-      boxes.classList.add('swiper-wrapper');
-      
-      // (rasmlar uchun alohida joy)
-      const swiperContainer = document.createElement('div');
-      swiperContainer.className = 'swiper main-swiper-container';
-      swiperContainer.style.width = '100%';
-      swiperContainer.style.overflow = 'hidden';
-      swiperContainer.style.margin = '0 10px'; // Tugmalar va rasmlar orasida masofa
-
-      // Boxes-ni (rasmlarni) shu yangi container ichiga solamiz
-      boxes.parentNode.insertBefore(swiperContainer, boxes);
-      swiperContainer.appendChild(boxes);
-
-      // Har bir mahsulotga klass beramiz
-      items.forEach(item => {
-        item.classList.add('swiper-slide');
-        item.style.width = '25%'; // 4 ta rasm sig'ishi uchun
-      });
-
-      // 3. Tugmalarni rasmning ikki chetiga 
-      if(prevBtn) {
-        wrapper.prepend(prevBtn); // Chapga o'tkazish
-        prevBtn.style.position = 'static';
-        prevBtn.style.cursor = 'pointer';
-        prevBtn.style.flexShrink = '0';
-      }
-      if(nextBtn) {
-        wrapper.append(nextBtn); // O'ngga o'tkazish
-        nextBtn.style.position = 'static';
-        nextBtn.style.cursor = 'pointer';
-        nextBtn.style.flexShrink = '0';
-      }
-
-      // 4. Swiperni ishga tushirish
-      new Swiper(swiperContainer, {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        navigation: {
-          nextEl: nextBtn,
-          prevEl: prevBtn,
-        },
-        pagination: {
-          el: paginationClass,
-          clickable: true,
-          bulletClass: 'dot',
-          bulletActiveClass: 'active',
-          renderBullet: function (index, className) {
-            return '<div class="' + className + '"><div></div></div>';
-          },
-        },
-        breakpoints: {
-          320: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 4 }
-        }
-      });
-    }
-  }
-
-  // Ikkala blok uchun 
-  setupSwiper('.product_wrapper', '.product_boxes', '.product_box', '.selling_product_frame .pagination_dot');
-  setupSwiper('.tv_wrapper', '.tv_product_boxes', '.tv_product_box', '.tv_frame .pagination_dot');
-</script>
-<!-- swiper tugashi-->
 
   </body>
 </html>

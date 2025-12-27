@@ -2,8 +2,6 @@
 
 .home_page
 {
-	padding-bottom: 60px ;
-
 	display: flex;
 	flex-direction: column;
 
@@ -1097,6 +1095,7 @@ box-shadow: rgb(34, 207, 246) 10px 5px 15px 30px;
 	justify-content: center;
 
 	background-image: url(../images/icons/event_bg.png);
+	background-size: cover;
 	cursor: pointer;
 
 }
