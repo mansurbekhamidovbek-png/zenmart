@@ -638,5 +638,49 @@ flex-direction: row;
     color: #041e42;
 }
 
-/* swiper*/
+/* Router Frame */
 
+.router_frame
+{
+	margin-top: 20px 0px;
+	margin-left: 50px;
+
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+}
+
+.router_frame span
+{
+	font-family: var(--font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+	line-height: 22px;
+
+    color: #041e42;
+}
+
+.router_frame div
+{
+	margin: 0px 10px;
+}
+
+.router_frame span.active
+{
+	font-family: var(--font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+	line-height: 22px;
+
+    color: #626974;
+}
+
+.router_frame span:hover
+{
+	color: red;
+}

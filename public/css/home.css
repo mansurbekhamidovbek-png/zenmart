@@ -148,7 +148,6 @@
 
 .container .next_prew_box img
 {
-	z-index: 9;
 	position: absolute;
 	top: 50%;
 	cursor: pointer;
@@ -738,7 +737,6 @@ color: #626974;
 
 
 /* swipper */
-
 
 
 /* Product_Wrapper */
